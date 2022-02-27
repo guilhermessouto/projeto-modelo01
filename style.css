@@ -101,4 +101,6 @@ nav a:hover{text-decoration: underline;}
     text-decoration: none;
     text-shadow: 1px 1px 1px black;}
 
-
+@media(max-width: 300px){
+    header{width: 1000px;}
+}
