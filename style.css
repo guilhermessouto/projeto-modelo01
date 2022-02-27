@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body{padding: 0;
+    margin: 0;}
+
+header{background-image: url(imagens/tec.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+    color: white;}
+
+header h1{width: 422px;
+    margin: auto;
+    padding-top: 60px;
+    text-shadow: 1px 1px 1px black;}
+
+nav{padding: 10px;
+    padding-top: 85px;}
+
+nav a{color: rgb(117, 117, 223);
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bolder;}
+
+nav a:hover{text-decoration: underline;}
+
+#meio{background-color: rgb(150, 71, 19);
+    width: 1341px;
+    height: 500px;
+    box-shadow: 0px 0px 15px 35px rgb(150, 71, 19);}
+
+#alinhamento{width: 700px;
+    height: 400px;
+    margin: auto;}
+
+#quadrados{width: 668px;
+    height: 200px;
+    margin: auto;
+    padding-top: 50px;}
+
+.a{background-color: darkgoldenrod;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 50%;}
+
+#q1{background-image: url(imagens/note.png);
+    background-size: contain;
+    margin: 0;}
+
+#q2{background-image: url(imagens/hospedagem.png);
+    background-size: contain;}
+
+#q3{background-image: url(imagens/chat.png);
+    background-size: contain;}
+
+#titulos{width: 700px;
+    height: 130px;
+    margin: auto;
+    text-align: center;}
+
+.b{display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    text-shadow: 1px 1px 1px black;
+    color: white;}
+
+#t1{margin: 0;}
+
+.c{border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 50px 5px 50px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;}
+
+.d{margin-bottom: 30px;}
+
+#footer{height: 350px;
+    background-color: grey;
+    background-color: rgb(112, 59, 24);}
+
+#foot{width: 700px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    text-shadow: 1px 1px 1px black;}
+
+#footmarginh2{margin-bottom: 0;}
+
+#footcolor{color: orange;
+    margin-top: 0;}
+
+#entrar{border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 50px 5px 50px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;}
+
+
