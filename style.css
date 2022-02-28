@@ -5,7 +5,8 @@ body{padding: 0;
 
 header{background-image: url(imagens/tec.jpg);
     background-position: top right;
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 250px;
     color: white;}
 
@@ -26,13 +27,13 @@ nav a:hover{text-decoration: underline;}
 
 #meio{background-color: rgb(150, 71, 19);
     height: 500px;
-    box-shadow: 0px 0px 15px 35px rgb(150, 71, 19);}
+    box-shado: 0px 0px 15px 35px rgb(150, 71, 19);}
 
 #alinhamento{width: 700px;
     height: 400px;
     margin: auto;}
 
-#quadrados{width: 668px;
+#quadrados{width: 670px;
     height: 200px;
     margin: auto;
     padding-top: 50px;}
@@ -45,16 +46,19 @@ nav a:hover{text-decoration: underline;}
     border-radius: 50%;}
 
 #q1{background-image: url(imagens/note.png);
-    background-size: contain;
+    background-size: 100%;
+    background-repeat: no-repeat;
     margin: 0;}
 
 #q2{background-image: url(imagens/hospedagem.png);
-    background-size: contain;}
+    background-size: 100%;
+    background-repeat: no-repeat;}
 
 #q3{background-image: url(imagens/chat.png);
-    background-size: contain;}
+    background-size: 100%;
+    background-repeat: no-repeat;}
 
-#titulos{width: 700px;
+#titulos{width: 670px;
     height: 130px;
     margin: auto;
     text-align: center;}
@@ -101,6 +105,42 @@ nav a:hover{text-decoration: underline;}
     text-decoration: none;
     text-shadow: 1px 1px 1px black;}
 
-@media(max-width: 700px){
-    body{width: 700px;}
+@media(max-width: 720px){
+    #alinhamento{width: 605px;}
+
+    #quadrados{width: 100%;
+        height: 160px;
+        margin: auto;}
+    .a{width: 150px;
+        height:150px;}
+
+    #titulos{width: 100%;}
+    .b{width: 150px;
+        height: 150px;}
+
+    #foot{width: 100%;}
+}
+
+@media(max-width: 600px){
+    #alinhamento{width: 100%;}
+
+    #q1, #q2, #q3{background-image: none;}
+
+    #quadrados{width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;}
+
+    .a{display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: 0;
+        border-radius: 0;}
+
+    #titulos{width: 100%;}
+
+    .b{margin: 0;
+        width: 100%;}
+
+    #foot{width: 100%;}
 }
