@@ -1,204 +1,124 @@
 @charset "UTF-8";
 
-body{padding: 0;
-    margin: 0;;}
+*{margin: 0;
+    font-family: Arial, Helvetica, sans-serif;}
 
-header{background-image: url(imagens/tec.jpg);
-    background-position: top right;
+body{background-color: grey;}
+
+header{padding: 80px 0;
+    background-image: url(imagens/tec.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 250px;
-    color: white;}
-
-header h1{width: 422px;
-    margin: auto;
-    padding-top: 60px;
+    background-position: center center;
+    text-align: center;
+    color: white;
     text-shadow: 1px 1px 1px black;}
 
-nav{padding: 10px;
-    padding-top: 85px;}
 
-nav a{color: rgb(117, 117, 223);
-    text-decoration: none;
-    margin-left: 10px;
-    font-weight: bolder;}
 
-nav a:hover{text-decoration: underline;}
 
-#meio{background-color: rgb(150, 71, 19);
-    height: 500px;
-    box-shado: 0px 0px 15px 35px rgb(150, 71, 19);}
+.sec-01-padding{padding: 50px 0;
+    background-color: rgb(165, 77, 4);}
 
-#alinhamento{width: 700px;
-    height: 400px;
+.sec-01-margin{width: 75%;
     margin: auto;}
 
-#quadrados{width: 670px;
-    height: 200px;
-    margin: auto;
-    padding-top: 50px;}
+.sec-01-flex{display: flex;
+    justify-content: center;}
 
-.a{background-color: darkgoldenrod;
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    margin-left: 30px;
-    border-radius: 50%;}
+.sec-01-align{margin: 30px 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;}
 
-#q1{background-image: url(imagens/note.png);
-    background-size: 100%;
+.sec-01-img1{background-image: url(imagens/note.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    margin: 0;}
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    margin: auto;}
 
-#q2{background-image: url(imagens/hospedagem.png);
-    background-size: 100%;
-    background-repeat: no-repeat;}
+.sec-01-img2{background-image: url(imagens/hospedagem.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    margin: auto;}
 
-#q3{background-image: url(imagens/chat.png);
-    background-size: 100%;
-    background-repeat: no-repeat;}
+.sec-01-img3{background-image: url(imagens/chat.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    margin: auto;}
 
-#titulos{width: 670px;
-    height: 130px;
-    margin: auto;
-    text-align: center;}
-
-.b{display: inline-block;
-    width: 200px;
-    height: 200px;
-    margin-left: 30px;
-    text-shadow: 1px 1px 1px black;
+.sec-01-align h1{margin: 13px 0;
     color: white;}
 
-#t1{margin: 0;}
+.sec-01-align p{line-height: 23px;
+    margin-bottom: 25px;
+    color: white;}
 
-.c{border: 2px solid white;
-    border-radius: 10px;
-    padding: 5px 50px 5px 50px;
+.sec-01-align a{text-decoration: none;
     color: white;
-    text-decoration: none;
-    text-shadow: 1px 1px 1px black;}
+    text-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 7px 30px;}
 
-.d{margin-bottom: 30px;}
+@media(max-width: 585px){
+    .sec-01-flex{flex-direction: column;
+        height: auto;}}
 
-#footer{height: 350px;
-    background-color: grey;
-    background-color: rgb(112, 59, 24);}
 
-#foot{width: 700px;
-    height: 300px;
+
+
+
+.sec-02-padding{padding: 75px 0;
+    background-color: rgb(141, 67, 6);}
+
+.sec-02-margin{width: 90%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
     color: white;
     text-shadow: 1px 1px 1px black;}
 
-#footmarginh2{margin-bottom: 0;}
+.sec-02-margin h4{color: orange;
+    margin-bottom: 15px;}
 
-#footcolor{color: orange;
-    margin-top: 0;}
+.sec-02-p{margin-bottom: 25px;}
 
-#entrar{border: 2px solid white;
-    border-radius: 10px;
-    padding: 5px 50px 5px 50px;
+.sec-02-margin a{text-decoration: none;
     color: white;
-    text-decoration: none;
-    text-shadow: 1px 1px 1px black;}
+    text-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 7px 30px;;}
 
-@media(max-width: 720px){
-    #alinhamento{width: 605px;}
 
-    #quadrados{width: 100%;
-        height: 160px;
-        margin: auto;}
-    .a{width: 150px;
-        height:150px;}
 
-    #titulos{width: 100%;}
-    .b{width: 150px;
-        height: 150px;}
 
-    #foot{width: 100%;}
-}
 
-@media(max-width: 600px){
-    #alinhamento{width: 100%;}
+.footer-padding{padding: 50px;
+    background-color: rgb(29, 39, 71);}
 
-    #q1, #q2, #q3{background-image: none;}
+.footer-margin{width: 90%;
+    margin: auto;}
 
-    #quadrados{width: 0;
-        height: 0;
-        margin: 0;
-        padding: 0;}
+.footer-flex{display: flex;
+    justify-content: center;;}
 
-    .a{display: inline-block;
-        width: 0;
-        height: 0;
-        margin-left: 0;
-        border-radius: 0;}
+.footer-config{margin: 15px 60px;}
 
-    #titulos{width: 100%;}
+.footer-config h4{color: rgba(255, 255, 255, 0.863);
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 15px;}
 
-    .b{margin: 0;
-        width: 100%;}
+.footer-config a{text-decoration: none;
+    color:rgb(85, 107, 179);
+    line-height: 30px;}
 
-    #foot{width: 100%;}
-}
-
-@media(max-width: 400px){
-    nav{padding-top: 75px;}
-
-    header h1{width: 100%;
-        text-align: center;}
-
-    
-
-    #q1, #q2, #q3{background-image: none;}
-
-    #quadrados{width: 0;
-        height: 0;
-        margin: 0;
-        padding: 0;}
-
-    .a{display: inline-block;
-        width: 0;
-        height: 0;
-        margin-left: 0;
-        border-radius: 0;}
-
-    #titulos{width: 100%;}
-
-    .b{margin: 0;
-        width: 100%;}
-
-    #foot{width: 100%;}
-}
-
-@media(max-width: 300px){
-    nav{padding-top: 60px;}
-
-    header h1{width: 100%;
-        text-align: center;}
-
-    
-
-    #q1, #q2, #q3{background-image: none;}
-
-    #quadrados{width: 0;
-        height: 0;
-        margin: 0;
-        padding: 0;}
-
-    .a{display: inline-block;
-        width: 0;
-        height: 0;
-        margin-left: 0;
-        border-radius: 0;}
-
-    #titulos{width: 100%;}
-
-    .b{margin: 0;
-        width: 100%;}
-
-    #foot{width: 100%;}
-}
+@media(max-width: 730px){
+    .footer-flex{flex-direction: column;}}
